@@ -17,12 +17,6 @@
   <p align="center">
     This is a Stock Price Predictor built as part of the Final Project for the Fall 2023 Data Analytics Boot Camp hosted by Washington University in St. Louis with edX.
     <br />
-    <a href="https://github.com/Tadespi/Project_4"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/Tadespi/Project_4/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Tadespi/Project_4/issues">Request Feature</a>
   </p>
 </div>
 
@@ -32,8 +26,6 @@
 The Stock Price Predictor was created after our group wanted to see if we could using historical data and different sets of learning models to predict the 200%+ increase in stock price of Celsius Holdings in the first quarter of 2024. If the model is able to predict an unusual increase in stock prices for this specific stock, there is a possibility it could also predict the increase in stock of other companies as well. 
 
 You will mainly be interacting with the Stock Price Predictor through Python code and Streamlit, an open-source framework designed for visualizing data.
-
-The Stock Price Predictor was developed by a team of four developers to submit for their final project of the Data Analytics Boot Camp hosted by Washington University in St. Louis with edX. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,15 +60,15 @@ To set up a local copy, follow these straightforward steps as provided in the ex
 1. Install Python pre-requisites. 
 2. Clone the repo
    ```sh
-   git clone https://github.com/tadespi/Project_4.git
+   git clone https://github.com/dshruti29/Project-4-Stock-Market-Prediction.git
    ```
 3. Start a Jupyter Notebook session and open the celh_lstm_model.ipynb notebook. 
-4. The stock modelling is currently prefilled to model data after Celsius Holdings stock history. Feel free to delete instances of the CELH stock moniker and replace with another stock to model. Run all of the cells and export the Keras model.
-6. Review the stock_price_predictor.py file and make sure the exported model file name matches what will be loaded by the script. Run the stock_price_predictor.py file through your Python environment. After loading, your environment should note Streamlit running with a localhost or 127.0.0.1 address.
-7. Open your brower and navigate to the localhost address listed in the shell. Input your stock symbol. Review the data. Congratulations! You are interacting with the Stock Price Predictor!
+4. The stock modelling is currently prefilled to model data after Celsius Holdings stock history. Feel free to delete instances of the CELH stock moniter and replace with another stock to model. Run all of the cells and export the Keras model. Make sure the model is saved with a .keras extension.
+6. Open the stock_price_predictor.py file in VS code and make sure the exported model file name matches what will be loaded by the script. Check if the interpretor is python(dev). Run the file --> Streamlit run stock_price_predictor.py
+7. After loading, your environment should note Streamlit running with a localhost or 127.0.0.1 address.
+8. Open your brower and navigate to the localhost address listed in the shell. Input your stock symbol. Review the data. Congratulations! You are interacting with the Stock Price Predictor!
 
-For clarification, the other models used in our development process are included in the repo for project rubric grading purposes. It is unnecessary to interact with them while using the Stock Price Predictor.
-
+For clarification, the other models used in our development process are included in the repo for project rubric grading purposes. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
