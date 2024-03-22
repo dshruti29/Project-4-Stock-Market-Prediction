@@ -50,7 +50,7 @@ To set up a local copy, follow these straightforward steps as provided in the ex
 
 ### Prerequisites
 
-* NumPy
+
   ```sh
   pip install numpy
   pip install matplotlib
