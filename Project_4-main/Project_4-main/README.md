@@ -53,35 +53,14 @@ To set up a local copy, follow these straightforward steps as provided in the ex
 * NumPy
   ```sh
   pip install numpy
-  ```
-* Matplotlib
-  ```sh
   pip install matplotlib
-  ```
-* yfinance
-  ```sh
   pip install yfinance
-  ``` 
-* sklearn
-  ```sh
-  pip install sklearn
-  ``` 
-* pandas
-  ```sh
+  pip install -U scikit-learn
   pip install pandas
-  ```  
-* datetime
-  ```sh
-  pip install datetime
-  ```   
-* keras
-  ```sh
   pip install keras
-  ```
-* streamlit
-  ```sh
   pip install streamlit
   ```
+
 
 <!-- INSTALLATION -->
 ### Installation
