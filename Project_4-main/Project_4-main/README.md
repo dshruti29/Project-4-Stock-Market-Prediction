@@ -64,39 +64,44 @@ To set up a local copy, follow these straightforward steps as provided in the ex
    ```
 3. Start a Jupyter Notebook session and open the celh_lstm_model.ipynb notebook. 
 4. The stock modelling is currently prefilled to model data after Celsius Holdings stock history. Feel free to delete instances of the CELH stock moniter and replace with another stock to model. Run all of the cells and export the Keras model. Make sure the model is saved with a .keras extension.
-6. Open the stock_price_predictor.py file in VS code and make sure the exported model file name matches what will be loaded by the script. Check if the interpretor is python(dev). Run the file --> Streamlit run stock_price_predictor.py
-7. After loading, your environment should note Streamlit running with a localhost or 127.0.0.1 address.
-8. Open your brower and navigate to the localhost address listed in the shell. Input your stock symbol. Review the data. Congratulations! You are interacting with the Stock Price Predictor!
+5. Open the stock_price_predictor.py file in VS code and make sure the exported model file name matches what will be loaded by the script. Check if the interpretor is python(dev). Run the file --> Streamlit run stock_price_predictor.py
+6. After loading, your environment should note Streamlit running with a localhost or 127.0.0.1 address.
+7. Open your brower and navigate to the localhost address listed in the shell. Input your stock symbol. Review the data. Congratulations! You are interacting with the Stock Price Predictor!
 
 For clarification, the other models used in our development process are included in the repo for project rubric grading purposes. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ROADMAP -->
-## Roadmap
 
-- [x] Working demo of modelling platform
-- [ ] Future development of modelling and visualization platform
+<!-- Approach -->
+## Approach
+
+Linear Regression 
+
+Applications in Stock Market Analysis : 
+Predictive Modeling: Linear regression can be used to predict future stock prices based on historical data and other relevant factors.
+It can help identify trends in stock prices over time and predict whether they are likely to continue or reverse.
+
+**R-squared Score: 0.8420478682059745**
+![linearregression.png]
+
+Because of the sequential nature of time-series data, we need a way to aggregate this sequence of information. From all the potential techniques, the most intuitive one is MA with the ability to smooth out short-term fluctuations.
+
+For this demonstration exercise, we’ll use the closing prices of Celcius stock (ticker symbol CELH) from the past 5 years (2019-01-01 to till date). Analysis data will be loaded from yfinance , which offers a free API for historical and real-time stock market data. 
+
+For our exercise, we’ll be looking at technical analysis solely and focusing on the Simple MA  techniques to predict stock prices. Additionally, we’ll utilize LSTM (Long Short-Term Memory), a deep learning framework for time-series, to build a predictive model and compare its performance against our technical analysis.
+It is an extremely powerful algorithm for time series. It can capture historical trend patterns, and predict future values with high accuracy
+Since stock prices prediction is essentially a regression problem, the RMSE (Root Mean Squared Error) will be our current model evaluation metrics. 
 
 
-See the [open issues](https://github.com/Tadespi/Project_4/issues) for a full list of proposed features (and known issues).
+Sources
+https://neptune.ai/blog/predicting-stock-prices-using-machine-learning
+https://www.youtube.com/watch?v=0E_31WqVzCY
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+The questions to think before investing in Celsius 
 
-<!-- CONTRIBUTING -->
-## Contributing
+- Will the Hyper growth continue 
+- Competition in the market  
 
-Currently, we are not accepting contributions to this project. Feedback, however, is **greatly appreciated** and all suggestions will be reviewed carefully. If you have feedback that would make this project better, you can also simply open an issue with the tag "enhancement".
-
-Don't forget to give the project a star! Thanks again!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-## License
-
-This project is still in a private phase. We are still working on our licensing functionality. Please check back at a later date.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
@@ -106,7 +111,7 @@ This project is still in a private phase. We are still working on our licensing 
 * Tadeo Espinoza - Developer - [Github](https://github.com/Tadespi)
 * Emma Holtgrieve - Developer - [Github](https://github.com/eholtgrieve)
 
-Project Link: [https://github.com/Tadespi/Project_4](https://github.com/Tadespi/Project_4)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,7 +133,7 @@ While very lightweight at less than 300 lines of code, the Stock Price Predictor
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* Thanks to Instructor Tom for direction early in this project.
+* Thanks to Instructor Thomas B for direction early in this project.
 * Thanks to our peers in the Data Analytics Boot Camp for challenging us and each other!
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template) was used to create this README file. 
 
