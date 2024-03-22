@@ -94,8 +94,9 @@ Since stock prices prediction is essentially a regression problem, the RMSE (Roo
 
 
 Sources
-![https://neptune.ai/blog/predicting-stock-prices-using-machine-learning]
-![https://www.youtube.com/watch?v=0E_31WqVzCY]
+[https://neptune.ai/blog/predicting-stock-prices-using-machine-learning]
+
+[https://www.youtube.com/watch?v=0E_31WqVzCY]
 
 The questions to think before investing in Celsius 
 
