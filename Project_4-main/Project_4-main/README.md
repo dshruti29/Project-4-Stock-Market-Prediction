@@ -81,8 +81,8 @@ Applications in Stock Market Analysis :
 Predictive Modeling: Linear regression can be used to predict future stock prices based on historical data and other relevant factors.
 It can help identify trends in stock prices over time and predict whether they are likely to continue or reverse.
 
-**R-squared Score: 0.8420478682059745**
-![linearregression.png]
+R-squared Score: 0.8420478682059745
+![Linear Regression](linearregression.png)
 
 Because of the sequential nature of time-series data, we need a way to aggregate this sequence of information. From all the potential techniques, the most intuitive one is MA with the ability to smooth out short-term fluctuations.
 
