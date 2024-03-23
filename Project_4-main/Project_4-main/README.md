@@ -101,9 +101,10 @@ The RMSE of LSTM model : 2.650118337065165
 ![LSTM](https://github.com/dshruti29/Project-4-Stock-Market-Prediction/assets/146403979/2496e77e-e046-4552-bc8f-7c070122d0ff)
 
 Sources:
+```sh
 https://neptune.ai/blog/predicting-stock-prices-using-machine-learning
 https://www.youtube.com/watch?v=0E_31WqVzCY
-
+```
 The questions to think before investing in this stock 
 
 - Will the Hyper growth continue 
