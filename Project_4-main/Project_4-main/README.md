@@ -85,6 +85,15 @@ R-squared Score: 0.8420478682059745
 
 ![Linear Regression](linearregression.png)
 
+![linearregression](https://github.com/dshruti29/Project-4-Stock-Market-Prediction/assets/146403979/1056c37b-3579-4b3d-b070-f7c6009c774e)
+
+2-KNN Classifier 
+
+
+
+
+3-LSTM
+
 Because of the sequential nature of time-series data, we need a way to aggregate this sequence of information. From all the potential techniques, the most intuitive one is MA with the ability to smooth out short-term fluctuations.
 
 For this demonstration exercise, we’ll use the closing prices of Celcius stock (ticker symbol CELH) from the past 5 years (2019-01-01 to till date). Analysis data will be loaded from yfinance , which offers a free API for historical and real-time stock market data. 
@@ -95,18 +104,17 @@ Since stock prices prediction is essentially a regression problem, the RMSE (Roo
 
 
 Sources
-[https://neptune.ai/blog/predicting-stock-prices-using-machine-learning]
+https://neptune.ai/blog/predicting-stock-prices-using-machine-learning
+https://www.youtube.com/watch?v=0E_31WqVzCY
 
-[https://www.youtube.com/watch?v=0E_31WqVzCY]
-
-The questions to think before investing in Celsius 
+The questions to think before investing in this stock 
 
 - Will the Hyper growth continue 
 - Competition in the market  
 
 
-<!-- CONTACT -->
-## Contact
+<!-- CONTRIBUTORS -->
+## CONTRIBUTORS
 
 * Chris Burk - Developer - [Github](https://github.com/burk992)
 * Shruti Deshpande - Developer - [Github](https://github.com/dshruti29)
