@@ -80,7 +80,8 @@ For clarification, the other models used in our development process are included
 Applications in Stock Market Analysis : 
 Predictive Modeling: Linear regression can be used to predict future stock prices based on historical data and other relevant factors.
 It can help identify trends in stock prices over time and predict whether they are likely to continue or reverse.
-R-squared Score: 0.8420478682059745
+
+R-squared Score for LR model: 0.8420478682059745
 ![linearregression](https://github.com/dshruti29/Project-4-Stock-Market-Prediction/assets/146403979/1056c37b-3579-4b3d-b070-f7c6009c774e)
 
 2-KNN Classifier 
@@ -95,8 +96,11 @@ For our exercise, we’ll be looking at technical analysis solely and focusing o
 It is an extremely powerful algorithm for time series. It can capture historical trend patterns, and predict future values with high accuracy
 Since stock prices prediction is essentially a regression problem, the RMSE (Root Mean Squared Error) will be our current model evaluation metrics. 
 
+The RMSE of LSTM model : 2.650118337065165
 
-Sources
+![LSTM](https://github.com/dshruti29/Project-4-Stock-Market-Prediction/assets/146403979/2496e77e-e046-4552-bc8f-7c070122d0ff)
+
+Sources:
 https://neptune.ai/blog/predicting-stock-prices-using-machine-learning
 https://www.youtube.com/watch?v=0E_31WqVzCY
 
