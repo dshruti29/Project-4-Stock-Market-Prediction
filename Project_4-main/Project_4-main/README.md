@@ -80,22 +80,15 @@ For clarification, the other models used in our development process are included
 Applications in Stock Market Analysis : 
 Predictive Modeling: Linear regression can be used to predict future stock prices based on historical data and other relevant factors.
 It can help identify trends in stock prices over time and predict whether they are likely to continue or reverse.
-
 R-squared Score: 0.8420478682059745
-
-![Linear Regression](linearregression.png)
-
 ![linearregression](https://github.com/dshruti29/Project-4-Stock-Market-Prediction/assets/146403979/1056c37b-3579-4b3d-b070-f7c6009c774e)
 
 2-KNN Classifier 
-
-
-
+![KNN](https://github.com/dshruti29/Project-4-Stock-Market-Prediction/assets/146403979/658928e9-bc60-44e4-8f20-bcee03a6f69b)
 
 3-LSTM
 
 Because of the sequential nature of time-series data, we need a way to aggregate this sequence of information. From all the potential techniques, the most intuitive one is MA with the ability to smooth out short-term fluctuations.
-
 For this demonstration exercise, we’ll use the closing prices of Celcius stock (ticker symbol CELH) from the past 5 years (2019-01-01 to till date). Analysis data will be loaded from yfinance , which offers a free API for historical and real-time stock market data. 
 
 For our exercise, we’ll be looking at technical analysis solely and focusing on the Simple MA  techniques to predict stock prices. Additionally, we’ll utilize LSTM (Long Short-Term Memory), a deep learning framework for time-series, to build a predictive model and compare its performance against our technical analysis.
@@ -134,8 +127,6 @@ With a simple Python module interactions, the Stock Price Predictor allows begin
 
 <!-- ETHICAL CONSIDERATIONS -->
 ## Ethical Considerations 
-
-While very lightweight at less than 300 lines of code, the Stock Price Predictor takes into account the ethical considerations of the average user in many ways. 
 
 * Predicting stock market movements entails significant uncertainty and risk, given the volatile nature of financial markets. It's crucial to acknowledge the inherent unpredictability and exercise caution when making trading decisions based on forecasts. Employing diverse models and strategies can help mitigate risks and enhance prediction accuracy.
 * The developers of this project are not liable for any financial losses incurred from the use of our code in stock market trading.
